@@ -1,7 +1,25 @@
 {
+  "name": "discord-interrupt-bot",
+  "version": "1.0.0",
+  "description": "A bot that talks over your friends whenever they try to speak in a voice channel",
+  "main": "index.js",
   "dependencies": {
     "@discordjs/opus": "^0.5.3",
     "discord.js": "^12.5.3",
     "ffmpeg-static": "^4.4.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoFleitas/discord-interrupt-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoFleitas/discord-interrupt-bot/issues"
+  },
+  "homepage": "https://github.com/DiegoFleitas/discord-interrupt-bot#readme"
 }
