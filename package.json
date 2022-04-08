@@ -1,7 +1,7 @@
 {
-  "name": "discord-interrupt-bot",
+  "name": "discord-voicecheck-bot",
   "version": "1.0.0",
-  "description": "A bot that talks over your friends whenever they try to speak in a voice channel",
+  "description": "A bot that alerts when a specifing user have been silent for a specific amount in time in a voice channel",
   "main": "index.js",
   "dependencies": {
     "@discordjs/opus": "^0.5.3",
