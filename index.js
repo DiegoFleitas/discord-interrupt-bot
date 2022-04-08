@@ -37,7 +37,7 @@ function joinChannel(channel, message) {
                     // start timer
                     scheduledAlert = setTimeout(() => {
                         console.log(`${member.username} has been silent for ${SILENCE_MAX_TIME} seconds ${new Date().toTimeString()}`);
-                        const msg = `${member.username} has been silent for ${SILENCE_MAX_TIME} seconds`;
+                        const msg = `${member.username} silent ${SILENCE_MAX_TIME} seconds`;
                         client.channels.cache.get(CHANNEL_ID).send(msg, { tts: true });
                         scheduledAlert = null;
                     }, SILENCE_MAX_TIME * 1000);
